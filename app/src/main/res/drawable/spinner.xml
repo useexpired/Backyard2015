@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  
+	issue (2015 July):
+	
+	draw a ring using shape:oval will
+	end up drawing a circle inside the ring filled in color of the canvas
+	(It has the same issue if it is controlled by rotatedrawable)
+	
+	so we need to manually clear that circle (i.e. method holePunch() )
+	if what was drawn inside the ring will be preserved
+	
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:height="12dp"
+                android:width="12dp"/>
+            <stroke
+                android:width="4dp"
+                android:color="#000000"/>
+        </shape>
+    </item>
+    
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:height="12dp"
+                android:width="12dp"/>
+            <stroke
+                android:width="4dp"
+                 android:dashGap="12dp"
+                android:dashWidth="18dp"
+                android:color="#FF0000"/>
+        </shape>
+    </item>
+
+</layer-list>

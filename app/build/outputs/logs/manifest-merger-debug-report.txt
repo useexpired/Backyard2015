@@ -1,0 +1,61 @@
+-- Merging decision tree log ---
+manifest
+ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:10:1-32:12
+INJECTED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:10:1-32:12
+INJECTED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:10:1-32:12
+	package
+		ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:12:4-36
+		INJECTED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml
+		INJECTED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:11:5-63
+uses-feature#android.software.live_wallpaper
+ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:14:19-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:15:2-78
+	android:name
+		ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:15:19-75
+application
+ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:16:5-31:19
+	android:label
+		ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:17:9-42
+	android:hardwareAccelerated
+		ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:19:9-43
+	android:icon
+		ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:18:9-46
+service#com.backyard2015.BackyardWallpaper
+ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:21:9-29:19
+	android:label
+		ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:22:13-60
+	android:permission
+		ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:24:13-67
+	android:name
+		ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:23:13-62
+intent-filter#action:name:android.service.wallpaper.WallpaperService
+ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:25:13-27:29
+action#android.service.wallpaper.WallpaperService
+ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:26:17-85
+	android:name
+		ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:26:25-82
+meta-data#android.service.wallpaper
+ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:28:13-96
+	android:resource
+		ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:28:65-93
+	android:name
+		ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:28:24-64
+uses-sdk
+INJECTED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml
+INJECTED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml
+INJECTED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml
+INJECTED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml
+		ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml
+		INJECTED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml
+		ADDED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml
+		INJECTED from Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml

@@ -1,0 +1,60 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3/*
+4// backyard wallpaper split 
+5// use eternalreturn big loop()
+6//	no extra thread or timer 
+7//
+8*/
+9-->
+10<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+11    package="com.backyard2015" >
+12
+13    <uses-sdk
+14        android:minSdkVersion="7"
+14-->Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml
+15        android:targetSdkVersion="11" />
+15-->Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml
+16    <!-- minimum sdk 7 without porterduff.mode.screen feature -->
+17    <uses-feature android:name="android.software.live_wallpaper" />
+17-->Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:14:5-68
+17-->Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:14:19-65
+18
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:15:2-78
+19-->Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:15:19-75
+20
+21    <application
+21-->Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:16:5-31:19
+22        android:debuggable="true"
+23        android:hardwareAccelerated="true"
+23-->Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:19:9-43
+24        android:icon="@drawable/backyardfoot"
+24-->Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:18:9-46
+25        android:label="@string/wallpaper" >
+25-->Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:17:9-42
+26        <service
+26-->Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:21:9-29:19
+27            android:name="com.backyard2015.BackyardWallpaper"
+27-->Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:23:13-62
+28            android:label="@string/wallpaper_service_label"
+28-->Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:22:13-60
+29            android:permission="android.permission.BIND_WALLPAPER" >
+29-->Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:24:13-67
+30            <intent-filter>
+30-->Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:25:13-27:29
+31                <action android:name="android.service.wallpaper.WallpaperService" />
+31-->Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:26:17-85
+31-->Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:26:25-82
+32            </intent-filter>
+33
+34            <meta-data
+34-->Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:28:13-96
+35                android:name="android.service.wallpaper"
+35-->Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:28:24-64
+36                android:resource="@xml/main" />
+36-->Q:\Java_Android_Studio_2024\Backyard2015\app\src\main\AndroidManifest.xml:28:65-93
+37        </service>
+38    </application>
+39
+40</manifest>

@@ -1,0 +1,28 @@
+<resources>
+    <array name="ledcolors">
+        <item>#ff0000</item>
+          
+        <item>#fe0000</item>         
+        <item>#fa0000</item>                
+        <item>#e10000</item>
+        <item>#eb0000</item>           
+        <item>#d60000</item>        
+        <item>#da0000</item>
+        <item>#d20000</item>
+        <item>#cc0000</item>     
+        <item>#cf0000</item> 
+        <!-- orange --> 
+        <item>#ff2702</item>             
+        <item>#ff2801</item>         
+        <item>#ff2600</item>             
+        <item>#ff2501</item>           
+        <item>#fe3200</item> 
+        
+        <!-- purple -->            
+        <item>#ab0040</item>         
+        <item>#ab0042</item>             
+        <!-- <item>#ac003b</item>          
+         <item>#b90135</item> -->              
+                              
+    </array>
+</resources>

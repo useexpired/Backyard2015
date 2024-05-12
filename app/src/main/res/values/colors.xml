@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="status_bar_background">#ff000000</color>
+    <color name="RBRRB_red">#ffff0000</color>      
+ 	<color name="RBRRB_black">#ff000000</color>
+   <!--  for exposure seekbar  -->
+
+</resources>

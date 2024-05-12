@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  
+	draw a simple oval ring
+	
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:height="12dp"
+                android:width="12dp"/>
+            <stroke
+                android:width="4dp"
+                android:color="#ff0000"/>
+        </shape>
+    </item>
+</layer-list>

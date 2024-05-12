@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+// backyard wallpaper split 
+// use eternalreturn big loop()
+//	no extra thread or timer 
+//
+*/
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.backyard2015" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="11" />
+    <!-- minimum sdk 7 without porterduff.mode.screen feature -->
+    <uses-feature android:name="android.software.live_wallpaper" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:debuggable="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/backyardfoot"
+        android:label="@string/wallpaper" >
+        <service
+            android:name="com.backyard2015.BackyardWallpaper"
+            android:label="@string/wallpaper_service_label"
+            android:permission="android.permission.BIND_WALLPAPER" >
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/main" />
+        </service>
+    </application>
+
+</manifest>
